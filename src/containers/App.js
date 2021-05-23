@@ -36,7 +36,7 @@ class App extends Component {
         <AppWrapper>
           <Header />
           <Board data={dataSource} lanes={lanes} dataSource={dataSource} />
-          <Tickets dataSource={dataSource} />
+          {/* <Tickets dataSource={dataSource} /> */}
         </AppWrapper>
       </>
     );
