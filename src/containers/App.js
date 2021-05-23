@@ -35,7 +35,7 @@ class App extends Component {
         <GlobalStyle />
         <AppWrapper>
           <Header />
-          <Board lanes={lanes} dataSource={dataSource} />
+          <Board data={dataSource} lanes={lanes} dataSource={dataSource} />
           <Tickets dataSource={dataSource} />
         </AppWrapper>
       </>
